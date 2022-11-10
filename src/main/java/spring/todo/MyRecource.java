@@ -43,6 +43,12 @@ public class MyRecource {
         return todoService.getById(id);
     }
 
+    @DeleteMapping("/delete/{id}")
+    public void deleteById(@PathVariable("id") Long id) {
+        LOGGER.info("DELETE");
+        todoService.deleteById(id);
+    }
+
     @PostMapping(value = "/create", consumes = "application/json", produces = "application/json")
     @Transactional(rollbackOn = Exception.class)
     public Todo newTodo(@RequestBody Todo newTodo) throws Exception {
@@ -50,6 +56,7 @@ public class MyRecource {
         LOGGER.info("POST");
         return todoService.saveTodo(newTodo);
     }
+
 
 
 }

@@ -1,10 +1,10 @@
-package spring;
+package spring.todo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import spring.model.Todo;
-import spring.service.TodoService;
+import spring.todo.model.Todo;
+import spring.todo.service.TodoService;
 
 @Component
 public class InitData implements CommandLineRunner {

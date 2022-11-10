@@ -1,13 +1,12 @@
-package spring;
+package spring.todo;
 
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import spring.dto.TodoDto;
-import spring.model.Todo;
-import spring.service.TodoService;
+import spring.todo.model.Todo;
+import spring.todo.service.TodoService;
 
 import javax.transaction.Transactional;
 import java.util.List;

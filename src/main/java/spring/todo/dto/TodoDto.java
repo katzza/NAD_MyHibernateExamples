@@ -1,4 +1,4 @@
-package spring.dto;
+package spring.todo.dto;
 
 public class TodoDto {
 

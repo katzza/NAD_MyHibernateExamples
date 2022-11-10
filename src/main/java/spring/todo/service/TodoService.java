@@ -1,10 +1,10 @@
-package spring.service;
+package spring.todo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import spring.repository.TodoRepositoryIf;
-import spring.dto.TodoDto;
-import spring.model.Todo;
+import spring.todo.repository.TodoRepositoryIf;
+import spring.todo.dto.TodoDto;
+import spring.todo.model.Todo;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package spring.model;
+package spring.todo.model;
 
 import javax.persistence.*;
 import java.util.Objects;

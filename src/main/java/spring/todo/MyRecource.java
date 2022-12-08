@@ -14,6 +14,7 @@ import java.util.Optional;
 
 import static org.jboss.logging.Logger.getLogger;
 
+@CrossOrigin
 @RestController
 @RequestMapping(path = "/todos", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
 public class MyRecource {
@@ -28,7 +29,7 @@ public class MyRecource {
     public String greeting(@RequestParam(name = "name", required = false, defaultValue = "World") String name, Model model) {
         model.addAttribute("name", name);
         LOGGER.info("Greeting");
-        return "greeting " + name;
+        return "greeting";
     }
 
     @GetMapping

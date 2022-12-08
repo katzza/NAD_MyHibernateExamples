@@ -1,0 +1,6 @@
+https://habr.com/ru/post/129494/
+
+1) Использовать нормальную (не ленивую) инициализацию везде где это возможно;  (SingletonA, SingletonEnum)
+2) Для статических полей использовать On Demand Holder idom; //из статьи
+3) Для простых полей использовать Double Chedked Lock & volatile idom;  //из статьи
+4) Во всех остальных случаях использовать Syncronized accessor;

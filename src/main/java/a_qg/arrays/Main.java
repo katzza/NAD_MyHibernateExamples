@@ -3,6 +3,15 @@ package a_qg.arrays;
 public class Main {
 
     public static void main(String[] args) {
+
+        int x;
+        int y = 3;
+        int z = 3;
+        int w;
+        x = ++y;
+        w = z++;
+
+
         int[] intArray = new int[14];
         intArray[3] = 5;
         intArray[4] = 3;

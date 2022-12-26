@@ -19,7 +19,7 @@ import static org.mockito.Mockito.*;
 
 @WebMvcTest()
 @ActiveProfiles("test1")
-public class TodoWebMVCTest {
+public class TariffWebMVCTest {
 	@Autowired
 	private MockMvc mvc;
 

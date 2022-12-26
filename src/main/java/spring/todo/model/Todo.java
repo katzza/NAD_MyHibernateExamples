@@ -5,7 +5,7 @@ import java.util.Objects;
 
 
 @Entity
-@Table(name = "todo")
+@Table(name = "ecare")
 public class Todo {
 
     @Id

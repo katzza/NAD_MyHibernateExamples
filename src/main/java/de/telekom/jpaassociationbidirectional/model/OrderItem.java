@@ -21,7 +21,6 @@ public class OrderItem {
 	public OrderItem() {}
 
 	public OrderItem(String orderItemDescription, Order order) {
-		super();
 		this.orderItemDescription = orderItemDescription;
 		this.order = order;
 	}

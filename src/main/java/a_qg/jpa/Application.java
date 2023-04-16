@@ -1,19 +1,16 @@
-package november11.test.example;
+package a_qg.jpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class TodoAppApplication  {
+public class Application {
 
+    public static void main(String[] args) {
+        ApplicationContext container = SpringApplication.run(Application.class, args);
 
+    }
 
-	public static void main(String[] args) {
-		ApplicationContext container = SpringApplication.run(TodoAppApplication.class, args);
-
-	}
-
-	
 
 }
